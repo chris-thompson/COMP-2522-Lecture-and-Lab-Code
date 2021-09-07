@@ -9,7 +9,7 @@ class Annoyance extends Exception {
 /**
  * A custom checked Exception.
  */
-class Sneeze extends ca.bcit.comp2522.code.exceptions.Annoyance {
+class Sneeze extends Annoyance {
 }
 
 /**

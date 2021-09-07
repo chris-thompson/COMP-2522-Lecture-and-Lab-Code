@@ -11,13 +11,14 @@ import java.util.Scanner;
  */
 public class GradeReport {
 
+    public static final int BIN_SIZE = 10;
+
     /**
      * Cues the user to enter a grade and prints comments accordingly.
      *
      * @param args command line arguments (unused)
      */
     public static void main(String[] args) {
-        final int binSize = 10;
         final int perfect = 10;
         final int average = 7;
 
@@ -26,7 +27,7 @@ public class GradeReport {
         System.out.print("Enter a numeric grade (0 to 100): ");
         final int grade = scan.nextInt();
 
-        final int category = grade / binSize;
+        final int category = grade / BIN_SIZE;
 
         System.out.print("That grade is ");
 

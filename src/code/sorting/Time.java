@@ -50,7 +50,7 @@ public class Time {
      * Constructs an object of type Time.
      * @param time hours a Time2
      */
-    public Time(final ca.bcit.comp2522.code.sorting.Time time) {
+    public Time(final Time time) {
         this(time.getHour(), time.getMinute(), time.getSecond());
     }
 

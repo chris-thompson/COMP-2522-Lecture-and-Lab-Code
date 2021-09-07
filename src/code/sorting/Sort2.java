@@ -17,12 +17,12 @@ public class Sort2 {
     public void printElements() {
         java.util.List<Time> list = new ArrayList<Time>();
         list.add(new Time(6, 24, 34));
-        list.add(new Time(18, 14, 58));
+//        list.add(new Time(18, 14, 58));
         list.add(new Time(6, 05, 34));
         list.add(new Time(12, 14, 58));
         list.add(new Time(6, 24, 22));
 
-        System.out.printf("Unsorted array elements:%n%s%n", list);
+//        System.out.printf("Unsorted array elements:%n%s%n", list);
         Collections.sort(list, new TimeComparator());
         System.out.printf("Sorted list elements:%n%s%n", list);
     }

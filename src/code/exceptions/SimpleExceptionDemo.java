@@ -31,7 +31,7 @@ class ExceptDemo {
  * @version 2020
  */
 public class SimpleExceptionDemo
-        extends ca.bcit.comp2522.code.exceptions.ExceptDemo {
+        extends ExceptDemo {
 
     /**
      * Throws an Exception.
