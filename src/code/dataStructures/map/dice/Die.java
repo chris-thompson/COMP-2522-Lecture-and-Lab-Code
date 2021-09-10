@@ -13,8 +13,8 @@ public class Die {
     /**
      * This die has 6 sides.
      */
-    public static final int NUMBER_OF_SIZES = 6;
-    private static final Random randomNumberGenerator = new Random();;
+    public static final int NUMBER_OF_SIDES = 6;
+    private static final Random randomNumberGenerator = new Random();
 
     private int faceValue;
 
@@ -22,7 +22,7 @@ public class Die {
      * Constructor for objects of type Die.
      */
     public Die() {
-        faceValue = randomNumberGenerator.nextInt(NUMBER_OF_SIZES) + 1;
+        faceValue = randomNumberGenerator.nextInt(NUMBER_OF_SIDES) + 1;
 
     }
 
@@ -32,7 +32,7 @@ public class Die {
      * @return the new face value as an int
      */
     public int roll() {
-        faceValue = randomNumberGenerator.nextInt(NUMBER_OF_SIZES) + 1;
+        faceValue = randomNumberGenerator.nextInt(NUMBER_OF_SIDES) + 1;
         return faceValue;
     }
 
