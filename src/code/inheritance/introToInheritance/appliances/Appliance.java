@@ -33,11 +33,11 @@ public class Appliance {
      * @param widthCentimetres
      * @param depthCentimetres
      */
-    public Appliance(String manufacturer,
-                     String serialNumber,
-                     double heightCentimetres,
-                     double widthCentimetres,
-                     double depthCentimetres) {
+    public Appliance(final String manufacturer,
+                     final String serialNumber,
+                     final double heightCentimetres,
+                     final double widthCentimetres,
+                     final double depthCentimetres) {
         setManufacturer(manufacturer);
         setSerialNumber(serialNumber);
         setHeightCentimetres(heightCentimetres);
@@ -95,7 +95,7 @@ public class Appliance {
      *
      * @param manufacturer the manufacturer to set
      */
-    public final void setManufacturer(String manufacturer) {
+    public final void setManufacturer(final String manufacturer) {
         if (manufacturer != null && manufacturer.trim().length() > 0) {
             this.manufacturer = manufacturer.trim();
         }
@@ -109,7 +109,7 @@ public class Appliance {
      *
      * @param serialNumber the serialNumber to set
      */
-    public final void setSerialNumber(String serialNumber) {
+    public final void setSerialNumber(final String serialNumber) {
         if (serialNumber != null && serialNumber.trim().length() > 0) {
             this.serialNumber = serialNumber;
         }
@@ -123,7 +123,7 @@ public class Appliance {
      *
      * @param heightCentimetres the heightCentimetres to set
      */
-    public final void setHeightCentimetres(double heightCentimetres) {
+    public final void setHeightCentimetres(final double heightCentimetres) {
         if (heightCentimetres > 0) {
             this.heightCentimetres = heightCentimetres;
         }
@@ -137,7 +137,7 @@ public class Appliance {
      *
      * @param widthCentimetres the widthCentimetres to set
      */
-    public final void setWidthCentimetres(double widthCentimetres) {
+    public final void setWidthCentimetres(final double widthCentimetres) {
         if (widthCentimetres > 0) {
             this.widthCentimetres = widthCentimetres;
         }
@@ -151,7 +151,7 @@ public class Appliance {
      *
      * @param depthCentimetres the depthCentimetres to set
      */
-    public final void setDepthCentimetres(double depthCentimetres) {
+    public final void setDepthCentimetres(final double depthCentimetres) {
         if (depthCentimetres > 0) {
             this.depthCentimetres = depthCentimetres;
         }

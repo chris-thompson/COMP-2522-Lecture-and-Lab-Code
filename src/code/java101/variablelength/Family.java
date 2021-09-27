@@ -14,7 +14,7 @@ public class Family {
     private final String[] members;
 
     /**
-     * Constructs a Family object by storying the (possibly multiple)
+     * Constructs a Family object by storing the (possibly multiple)
      * names that are passed as passByValue.
      *
      * @param names a variable number of Strings

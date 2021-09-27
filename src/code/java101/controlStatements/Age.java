@@ -20,7 +20,7 @@ public class Age {
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final Scanner scan = new Scanner(System.in);
 

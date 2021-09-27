@@ -18,7 +18,7 @@ public abstract class Animal {
      *
      * @param age a positive integer
      */
-    public Animal(int age) {
+    public Animal(final int age) {
         this.age = age;
     }
 

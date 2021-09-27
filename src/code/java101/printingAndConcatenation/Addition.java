@@ -15,7 +15,7 @@ public class Addition {
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println("24 and 45 concatenated: " + 24 + 45);
         System.out.println("24 and 45 added: " + (24 + 45));
     }
