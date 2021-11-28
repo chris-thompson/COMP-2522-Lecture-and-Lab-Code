@@ -27,7 +27,7 @@ public final class OptionalExample {
     public static Optional<String> mightReturnNothing() {
         boolean flipCoin = new Random().nextBoolean();
         if (flipCoin) {
-            return Optional.of("Heads you win!");
+            return Optional.of("Heads you win!"); // This is how we make and fill a new Optional!
         } else {
             return Optional.empty();
         }

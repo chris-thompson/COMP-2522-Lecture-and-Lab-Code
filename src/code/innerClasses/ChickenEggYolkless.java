@@ -32,7 +32,7 @@ public class ChickenEggYolkless {
      */
     public static void main(final String[] args) {
         ChickenEggYolkless egg = new ChickenEggYolkless();
-        // egg.y.setEggNumber(5); // We can't do this! NullPointerException! Won't even compile!
+        egg.yolk.setEggNumber(5);
         System.out.println("number = " + egg.number);
     }
 }

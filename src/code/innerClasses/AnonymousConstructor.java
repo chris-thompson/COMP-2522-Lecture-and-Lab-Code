@@ -37,7 +37,7 @@ abstract class Base {
  * @author BCIT
  * @version 2020
  */
-public final class AnonymousConstructor {
+public final class  AnonymousConstructor {
 
     private AnonymousConstructor() {
 

@@ -44,8 +44,8 @@ public class Calculator {
     public static void main(final String... args) {
 
         Calculator myApp = new Calculator();
-        IntegerMath addition = (a, b) -> a + b; // A lambda! This is a form of local class.
-        IntegerMath subtraction = (a, b) -> a - b; // A lambda! This is a form of local class.
+        IntegerMath addition = (a, b) -> a + b; // A lambda! This is a form of anonymous class.
+        IntegerMath subtraction = (a, b) -> a - b; // A lambda! This is a form of anonymous class.
         System.out.println("40 + 2 = " + myApp.operateBinary(40, 2, addition));
         System.out.println("20 - 10 = " + myApp.operateBinary(20, 10, subtraction));
     }
