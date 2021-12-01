@@ -78,7 +78,6 @@ public class Student {
         this.standing = standing;
     }
 
-
     /**
      * Returns true if the argument is equal to this Student, else false.
      * @param o an Object
