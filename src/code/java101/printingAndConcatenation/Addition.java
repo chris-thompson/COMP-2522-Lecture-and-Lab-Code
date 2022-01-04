@@ -8,7 +8,9 @@ package code.java101.printingAndConcatenation;
  * @author BCIT
  * @version 2020
  */
-public class Addition {
+public final class Addition {
+
+    private Addition() { }
 
     /**
      * Concatenates and adds two numbers, then prints the results.

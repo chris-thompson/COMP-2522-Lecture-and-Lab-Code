@@ -18,7 +18,7 @@ public class HelloWorld {
 
         String emptyString = "";
 
-        String anotherString = new String("Marti wuz here");
+        String anotherString = new String("George wuz here");
 
         Integer thisIsAWrapper = new Integer(2);
 
