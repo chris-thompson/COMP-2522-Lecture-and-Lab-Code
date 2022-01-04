@@ -7,7 +7,7 @@ import java.util.Scanner;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2019
+ * @version 2022
  */
 public class Multiples {
 

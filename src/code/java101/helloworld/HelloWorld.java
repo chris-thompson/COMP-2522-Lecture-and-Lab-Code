@@ -4,7 +4,7 @@ package code.java101.helloworld;
  * Welcome to COMP 2522.
  *
  * @author BCIT
- * @version 202030
+ * @version 2022
  */
 public class HelloWorld {
 

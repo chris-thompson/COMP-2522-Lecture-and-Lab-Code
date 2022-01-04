@@ -6,7 +6,7 @@ import java.util.Scanner;
  * FunWithStrings.
  *
  * @author BCIT
- * @version 2020
+ * @version 2022
  */
 public class FunWithStrings {
 

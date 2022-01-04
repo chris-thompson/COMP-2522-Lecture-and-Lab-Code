@@ -4,7 +4,7 @@ package code.java101.dataTypes;
  * Demonstrates some floating point number properties.
  *
  * @author BCIT
- * @version 2020
+ * @version 2022
  */
 public class FloatingFun {
 

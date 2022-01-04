@@ -5,7 +5,7 @@ package code.java101.commandLineArguments;
  * command line arguments, which must be integers.
  *
  * @author BCIT
- * @version 2020
+ * @version 2022
  */
 public class Average {
 

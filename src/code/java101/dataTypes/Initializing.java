@@ -5,7 +5,7 @@ package code.java101.dataTypes;
  * Local variables must be initialized!
  *
  * @author BCIT
- * @version 2020
+ * @version 2022
  */
 public class Initializing {
 

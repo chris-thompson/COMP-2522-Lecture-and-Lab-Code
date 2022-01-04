@@ -5,7 +5,7 @@ package code.java101.strings;
  *
  * @author Lewis & Loftus 9e
  * @author BCIT
- * @version 2020
+ * @version 2022
  */
 public class StringMutation {
 
