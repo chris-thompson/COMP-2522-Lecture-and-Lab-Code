@@ -13,7 +13,7 @@ public class Age {
     /**
      * Age of majority.  Person is minor if age < MINOR
      */
-    public static final int AGE_OF_MAJORITY = 21;
+    public static final int AGE_OF_MAJORITY = 19;
 
     /**
      * Reads the user's age and prints comments accordingly.
