@@ -6,13 +6,15 @@ package code.java101.dataTypes;
  * @author BCIT
  * @version 2022
  */
-public class Overflow {
+public final class Overflow {
+
+    private Overflow() { }
 
     /**
-     * Drives the program
+     * Drives the program.
      * @param args unused
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         byte aByte = 127;
         aByte++;

@@ -7,13 +7,16 @@ package code.java101.controlStatements;
  * @author BCIT
  * @version 2020
  */
-public class Tree {
+public final class Tree {
+
+    private Tree() { }
+
     /**
      * Prints a tree shape using asterisk (star) characters.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int maxRows = 10;
         for (int row = 1; row <= maxRows; row++) {
             for (int blanks = 1; blanks <= maxRows - row; blanks++) {

@@ -6,13 +6,15 @@ package code.java101.dataTypes;
  * @author BCIT
  * @version 2022
  */
-public class FloatingFun {
+public final class FloatingFun {
+
+    private FloatingFun() { }
 
     /**
      * Drives the program.
      * @param args unused
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final double aValue = 1.0 / 0;
         System.out.println(aValue);

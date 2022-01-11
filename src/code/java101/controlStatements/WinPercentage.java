@@ -10,14 +10,16 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class WinPercentage {
+public final class WinPercentage {
+
+    private WinPercentage() { }
 
     /**
      * Computes the percentage of games won by a team.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final Scanner scan = new Scanner(System.in);
         final int numGames = 12;

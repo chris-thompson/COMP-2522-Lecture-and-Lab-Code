@@ -9,11 +9,16 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2022
  */
-public class Age {
+public final class Age {
+
     /**
      * Age of majority.  Person is minor if age < MINOR
      */
     public static final int AGE_OF_MAJORITY = 19;
+
+
+    private Age() {
+    }
 
     /**
      * Reads the user's age and prints comments accordingly.

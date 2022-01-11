@@ -7,14 +7,18 @@ package code.java101.controlStatements;
  * @author BCIT
  * @version 2022
  */
-public class Stars {
+public final class Stars {
+
+    private Stars() {
+
+    }
 
     /**
      * Prints a triangle shape using asterisk (star) characters.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int maxRows = 10;
 
         for (int row = 1; row <= maxRows; row++) {

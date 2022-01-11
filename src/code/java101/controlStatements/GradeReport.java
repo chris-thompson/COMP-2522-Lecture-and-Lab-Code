@@ -9,16 +9,23 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2022
  */
-public class GradeReport {
+public final class GradeReport {
 
+    /**
+     * Reduces the grade by a factor of 10.
+     */
     public static final int BIN_SIZE = 10;
+
+    private GradeReport() {
+
+    }
 
     /**
      * Cues the user to enter a grade and prints comments accordingly.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int perfect = 10;
         final int average = 7;
 

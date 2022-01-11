@@ -7,14 +7,16 @@ package code.java101.controlStatements;
  * @author BCIT
  * @version 2020
  */
-public class Wedge {
+public final class Wedge {
+
+    private Wedge() { }
 
     /**
      * Prints a wedge shape using asterisk (star) characters.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int maxRows = 11;
 
         for (int row = 1; row <= maxRows; row++) {

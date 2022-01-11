@@ -9,7 +9,11 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2022
  */
-public class Multiples {
+public final class Multiples {
+
+    private Multiples() {
+
+    }
 
     /**
      * Prints multiples of a user-specified number up to a user-
@@ -17,7 +21,7 @@ public class Multiples {
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final Scanner scan = new Scanner(System.in);
 

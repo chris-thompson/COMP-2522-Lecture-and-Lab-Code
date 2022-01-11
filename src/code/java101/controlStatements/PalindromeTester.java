@@ -10,14 +10,18 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class PalindromeTester {
+public final class PalindromeTester {
+
+    private PalindromeTester() {
+
+    }
 
     /**
      * Tests Strings to see if they are palindromes.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         String str;
         String another = "y";
         final Scanner scan = new Scanner(System.in);

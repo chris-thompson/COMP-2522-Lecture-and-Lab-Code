@@ -9,14 +9,18 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class ReverseNumber {
+public final class ReverseNumber {
+
+    private ReverseNumber() {
+
+    }
 
     /**
      * Reverses the digits of an integer mathematically.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final Scanner scan = new Scanner(System.in);
 

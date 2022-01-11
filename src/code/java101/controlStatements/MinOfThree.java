@@ -11,7 +11,11 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class MinOfThree {
+public final class MinOfThree {
+
+    private MinOfThree() {
+
+    }
 
     /**
      * Reads three integers from the user and determines the smallest
@@ -19,7 +23,7 @@ public class MinOfThree {
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         System.out.println("Enter three integers: ");
 

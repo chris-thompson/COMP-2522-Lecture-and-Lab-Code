@@ -56,12 +56,13 @@ public class Die {
         }
     }
 
-    @Override
+
     /**
      * Returns a String representation of this Die.
      *
      * @return toString description
      */
+    @Override
     public String toString() {
         return "Die{" + "faceValue=" + faceValue + "}";
     }
@@ -71,7 +72,7 @@ public class Die {
      *
      * @param args
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Die testDie = new Die();
         int roll = testDie.roll();
         int faceValue = testDie.getFaceValue();

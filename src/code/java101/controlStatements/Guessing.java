@@ -10,18 +10,22 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2022
  */
-public class Guessing {
+public final class Guessing {
     /**
      * Number in guessing range.
      */
     private static final int MAX = 10;
+
+    private Guessing() {
+
+    }
 
     /**
      * Plays a simple guessing game with the user.
      *
      * @param args command line argument (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         System.out.print("I'm thinking of a number between 1 and "
                 + MAX + ". Guess what it is: ");

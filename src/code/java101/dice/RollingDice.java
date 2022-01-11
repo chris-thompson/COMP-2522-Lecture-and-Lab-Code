@@ -7,14 +7,16 @@ package code.java101.dice;
  * @author BCIT
  * @version 2020
  */
-public class RollingDice {
+public final class RollingDice {
+
+    private RollingDice() { }
 
     /**
      * Driver program creates two Die objects and rolls them.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final Die die1 = new Die();
         final Die die2 = new Die();

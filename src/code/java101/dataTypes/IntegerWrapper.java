@@ -9,14 +9,16 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class IntegerWrapper {
+public final class IntegerWrapper {
+
+    private IntegerWrapper() { }
 
     /**
      * Drives the program.
      *
      * @param args command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         final Scanner scanner = new Scanner(System.in);
 
