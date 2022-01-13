@@ -14,16 +14,15 @@ public class Die {
      * The number of sides.
      */
     public static final int SIDES = 6;
+    private static final Random RANDOM_NUMBER_GENERATOR = new Random();
 
     private int faceValue;
-    private final Random randomNumberGenerator;
 
     /**
      * Constructs a Die object.
      */
     public Die() {
-        faceValue = 1;
-        randomNumberGenerator = new Random();
+        this.faceValue = 1;
     }
 
     /**
@@ -32,8 +31,8 @@ public class Die {
      * @return faceValue as an int
      */
     public int roll() {
-        faceValue = randomNumberGenerator.nextInt(SIDES) + 1;
-        return faceValue;
+        this.faceValue = RANDOM_NUMBER_GENERATOR.nextInt(SIDES) + 1;
+        return this.faceValue;
     }
 
     /**
@@ -42,7 +41,7 @@ public class Die {
      * @return faceValue as an int
      */
     public int getFaceValue() {
-        return faceValue;
+        return this.faceValue;
     }
 
     /**
@@ -52,10 +51,9 @@ public class Die {
      */
     public void setFaceValue(final int value) {
         if (value > 0 && value <= SIDES) {
-            faceValue = value;
+            this.faceValue = value;
         }
     }
-
 
     /**
      * Returns a String representation of this Die.
@@ -64,7 +62,7 @@ public class Die {
      */
     @Override
     public String toString() {
-        return "Die{" + "faceValue=" + faceValue + "}";
+        return "Die{" + "faceValue=" + this.faceValue + "}";
     }
 
     /**
@@ -78,6 +76,7 @@ public class Die {
         int faceValue = testDie.getFaceValue();
         System.out.println(roll == faceValue);
         System.out.println(testDie.toString());
+        System.out.println(testDie);
     }
 }
 

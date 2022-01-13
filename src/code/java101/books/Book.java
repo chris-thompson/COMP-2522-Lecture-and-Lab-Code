@@ -34,6 +34,12 @@ public class Book {
         this(DEFAULT_AUTHOR, DEFAULT_TITLE, MINIMUM_PAGES);
     }
 
+    /**
+     * Constructs an object of type Book.
+     *
+     * @param author a String
+     * @param title  a String
+     */
     public Book(final String author, final String title) {
         this(author, title, MINIMUM_PAGES);
     }
@@ -101,7 +107,7 @@ public class Book {
      *
      * @param args unused
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int quantity = 10;
         for (int i = 0; i < quantity; ++i) {
             System.out.println(new Book());
