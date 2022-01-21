@@ -400,9 +400,9 @@
              twice, to the same value. Java initializes each instance variable to its
              default value (0 or null) before performing any initialization specified in
              the code. So there is a minor inefficiency. -->
-        <module name="ExplicitInitialization">
-            <property name="onlyObjectReferences" value="true"/>
-        </module>
+<!--        <module name="ExplicitInitialization">-->
+<!--            <property name="onlyObjectReferences" value="true"/>-->
+<!--        </module>-->
 
         <!-- Check that the default is after all the cases in a switch statement. -->
         <module name="DefaultComesLast"/>
