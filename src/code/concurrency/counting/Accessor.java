@@ -8,7 +8,7 @@ package code.concurrency.counting;
  */
 public class Accessor extends Thread {
 
-    private final Counter counter;
+    private final Counter counter ;
 
     /**
      * Constructs an object of type Accessor.
