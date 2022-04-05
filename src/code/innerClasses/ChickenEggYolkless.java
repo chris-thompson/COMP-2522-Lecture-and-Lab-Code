@@ -32,6 +32,9 @@ public class ChickenEggYolkless {
      */
     public static void main(final String[] args) {
         ChickenEggYolkless egg = new ChickenEggYolkless();
+
+
+
         egg.yolk.setEggNumber(5);
         System.out.println("number = " + egg.number);
     }

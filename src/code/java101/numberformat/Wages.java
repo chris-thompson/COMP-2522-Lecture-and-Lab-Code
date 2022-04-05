@@ -10,28 +10,29 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class Wages {
+public final class Wages {
+
+    private Wages() { }
 
     /**
      * Cues the user for the numbers of hours worked and calculates wages.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
-        final double rate = 8.25; // regular pay rate
-        final double overtimeRate = rate * 1.5;
-        final int standard = 40; // standard hours in a work week
+    public static void main(final String[] args) {
+        final double hourlyRate = 8.25; // regular pay rate
+        final double overtimeRate = hourlyRate * 1.5;
+        final int standardWeek = 40; // standard hours in a work week
 
         System.out.print("Enter the number of hours worked: ");
         final Scanner scan = new Scanner(System.in);
         final int hours = scan.nextInt();
 
-        // Pays overtime at "time and a half"
-        double pay = 0.0;
-        if (hours > standard) {
-            pay = standard * rate + (hours - standard) * overtimeRate;
+        double pay;
+        if (hours > standardWeek) {
+            pay = standardWeek * hourlyRate + (hours - standardWeek) * overtimeRate;
         } else {
-            pay = hours * rate;
+            pay = hours * hourlyRate;
         }
 
         final NumberFormat fmt = NumberFormat.getCurrencyInstance();

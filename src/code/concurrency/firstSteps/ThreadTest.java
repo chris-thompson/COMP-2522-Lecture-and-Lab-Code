@@ -198,7 +198,9 @@ public final class ThreadTest {
         for (int i = 1; i <= 6; i++) {
             createThreads(data, 1200, i);
         }
-        createThreads(data, 1200, 10);
+
+        int cores = Runtime.getRuntime().availableProcessors();
+        createThreads(data, 1200, cores);
 
 
     }

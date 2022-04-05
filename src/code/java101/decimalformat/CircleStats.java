@@ -10,14 +10,16 @@ import java.util.Scanner;
  * @author BCIT
  * @version 2020
  */
-public class CircleStats {
+public final class CircleStats {
+
+    private CircleStats() { }
 
     /**
      * Calculates the area and circumference of a circle given its radius.
      *
      * @param args command line arguments (unused)
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         Scanner scan = new Scanner(System.in);
 
@@ -27,7 +29,6 @@ public class CircleStats {
         final double area = Math.PI * Math.pow(radius, 2);
         final double circumference = 2 * Math.PI * radius;
 
-        // Round the output to three decimal places
         final DecimalFormat fmt = new DecimalFormat("0.00000");
         System.out.println("The circle's area: " + fmt.format(area));
         System.out.println("The circle's circumference: " + fmt.format(circumference));
